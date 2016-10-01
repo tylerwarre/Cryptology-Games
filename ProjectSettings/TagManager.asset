@@ -7,6 +7,7 @@ TagManager:
   - Portal
   - Scene Loader
   - Portal 2
+  - Portal 3
   layers:
   - Default
   - TransparentFX
