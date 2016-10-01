@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -39,7 +40,6 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Q))
         {
-            Debug.Log("Q!");
 
             if (viewMode == 0)
             {
@@ -54,7 +54,6 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.E))
         {
-            Debug.Log("E!");
             if (viewMode == 3)
             {
                 viewMode = 0;
@@ -95,6 +94,15 @@ public class PlayerController : MonoBehaviour
             default:
                 Debug.LogError("INVALID CAMERA VIEW MODE!");
                 break;
+        }
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Portal"))
+        {
+            other.gameObject.SetActive(false);
+            SceneManager.LoadScene("Portal1Game", LoadSceneMode.Single);
         }
     }
 }
