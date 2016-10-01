@@ -104,5 +104,11 @@ public class PlayerController : MonoBehaviour
             other.gameObject.SetActive(false);
             SceneManager.LoadScene("Portal1Game", LoadSceneMode.Single);
         }
+
+        if (other.gameObject.CompareTag("Portal 2"))
+        {
+            other.gameObject.SetActive(false);
+            SceneManager.LoadScene("Portal2Game", LoadSceneMode.Single);
+        }
     }
 }
