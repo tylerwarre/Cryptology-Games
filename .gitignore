@@ -1,3 +1,6 @@
 .vs
 Library
 Temp
+Cryptology-Games.CSharp.csproj
+Cryptology-Games.sln
+*.meta
