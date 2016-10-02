@@ -69,10 +69,15 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\ChangeScene.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\ChangeScene.cs" />
+    <Compile Include="Assets\Scripts\ContinueToGame1.cs" />
+    <Compile Include="Assets\Scripts\ContinueToGame2.cs" />
+    <Compile Include="Assets\Scripts\CreateLetter.cs" />
     <Compile Include="Assets\Scripts\LetterRotate.cs" />
+    <Compile Include="Assets\Scripts\PasswordGameLogic.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\RandomLetterMovement.cs" />
     <Compile Include="Assets\Scripts\Rotator.cs" />
   </ItemGroup>
   <ItemGroup>

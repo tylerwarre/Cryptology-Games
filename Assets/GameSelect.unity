@@ -7365,7 +7365,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_MovingTurnSpeed: 360
   m_StationaryTurnSpeed: 180
-  m_JumpPower: 5
+  m_JumpPower: 8
   m_GravityMultiplier: 2
   m_RunCycleLegOffset: 0.2
   m_MoveSpeedMultiplier: 0.7
@@ -7380,9 +7380,9 @@ CapsuleCollider:
   m_Material: {fileID: 13400000, guid: c2815a7ab32e42c4bb42f59caacb8ec1, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.01
+  m_Radius: 0.1
   m_Height: 0
-  m_Direction: 0
+  m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &2090337113
 Rigidbody:
@@ -7411,6 +7411,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 2090337109}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c7889cc70ca1fc40b18a35f1e71910e, type: 3}
+  m_Script: {fileID: 11500000, guid: d7b59bce0fb86d54781286958d539542, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

@@ -11,3 +11,7 @@ EditorBuildSettings:
     path: Assets/Portal1Game.unity
   - enabled: 1
     path: Assets/Portal2Game.unity
+  - enabled: 1
+    path: Assets/Portal1Info.unity
+  - enabled: 1
+    path: Assets/Portal2Info.unity
